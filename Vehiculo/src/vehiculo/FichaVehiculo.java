@@ -5,15 +5,21 @@
  */
 package vehiculo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Estudiantes
  */
 public class FichaVehiculo extends javax.swing.JFrame {
-
+//arreglos de objetos
+      Moto misMotos[]=new Moto[50];
       Moto miMoto=new Moto();
     
     public FichaVehiculo() {
+        for(int i = 0; i <50; i = i++){
+            misMotos[i]=new Moto();
+        }
         initComponents();
       
     }
@@ -176,8 +182,10 @@ public class FichaVehiculo extends javax.swing.JFrame {
         miMoto.Marca=TextoMarca.getText();
         miMoto.modelo=TextoModelo.getText();
         
+        
         //cambio de texto a numero
         miMoto.año=Integer.parseInt(TextoAño.getText());
+        //JOptionPane.showMessageDialog(this,"hola");
         miMoto.cilindraje=Integer.parseInt(TextoCilindraje.getText());
         
     }//GEN-LAST:event_BotonGuardarMouseClicked
