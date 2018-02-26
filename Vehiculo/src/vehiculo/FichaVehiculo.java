@@ -185,7 +185,7 @@ public class FichaVehiculo extends javax.swing.JFrame {
         
         //cambio de texto a numero
         miMoto.año=Integer.parseInt(TextoAño.getText());
-        //JOptionPane.showMessageDialog(this,"hola");
+        JOptionPane.showMessageDialog(null,"su moto fue registrada");
         miMoto.cilindraje=Integer.parseInt(TextoCilindraje.getText());
         
     }//GEN-LAST:event_BotonGuardarMouseClicked
