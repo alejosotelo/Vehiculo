@@ -11,6 +11,8 @@ package vehiculo;
  */
     public class Moto extends Vehiculo{
 
+    String Modelo;
+
     public Moto (){
         
         

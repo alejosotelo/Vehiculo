@@ -4,8 +4,8 @@ package vehiculo;
 
 public class Vehiculo {
 
-String Marca;
-private int cilindraje;
-private String modelo;
-private int año;
+public String Marca;
+public int cilindraje;
+public String modelo;
+public int año;
 }
